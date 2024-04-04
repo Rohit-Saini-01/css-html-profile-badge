@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(255, 0, 0);
+}
+
+.badge {
+  width: 260px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 100px auto;
+}
