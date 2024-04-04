@@ -1,14 +1,12 @@
 body {
   background-color: rgb(255, 0, 0);
-  background-image: url("/images/profile-background-img.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: repeating-linear-gradient(black 15%, red 20%);
 }
 
 .badge {
   width: 260px;
   background-color: rgb(255, 255, 255);
-  margin: 100px auto;
+  margin: 200px auto;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(40, 39, 39);
@@ -20,4 +18,15 @@ body {
 .badge img {
   width: 100px;
   border-radius: 50px;
+}
+
+.badge a {
+  color: rgb(255, 0, 0);
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+}
+
+#email {
+  color: rgb(0, 0, 0);
 }
